@@ -2,7 +2,6 @@
 
 SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
-
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather-icons/main/static/images/weather1.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather-icons/main/static/images/weather2.webp" />
@@ -30,9 +29,7 @@ npm i svelte-weather-icons
 ## Usage
 
 ```js
-<script>
-  import { DayCloudy } from "svelte-weather-icons";
-</script>
+<script>import {DayCloudy} from "svelte-weather-icons";</script>
 ```
 
 ## Props
@@ -58,8 +55,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<DayCloudy color="#ff0000" />
-<DayCloudy color="#00ffd8" />
+<DayCloudy color="#ff0000" /> <DayCloudy color="#00ffd8" />
 ```
 
 ## CSS framework support
@@ -86,14 +82,13 @@ Bootstrap example:
 <DayCloudy class="position-absolute top-0 px-1" />
 ```
 
-
 ## aria-label
 
-All icons have aria-label. For example `DayCloudy` has `aria-label="day cloudy"`. 
-Use `ariaLabel` prop to modify the `aria-label` value. 
+All icons have aria-label. For example `DayCloudy` has `aria-label="day cloudy"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<DayCloudy ariaLabel="day cloudy icon" class="text-red-500">
+<DayCloudy ariaLabel="day cloudy icon" class="text-red-500"></DayCloudy>
 ```
 
 ## Passing down other attributes
@@ -101,7 +96,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<DayCloudy tabindex="0">
+<DayCloudy tabindex="0"></DayCloudy>
 ```
 
 ## Import all
@@ -110,7 +105,7 @@ Use `import * as Icon from 'svelte-weather-icons`.
 
 ```html
 <script>
-  import * as Icon from "svelte-weather-icons";
+  import * as Icon from 'svelte-weather-icons';
 </script>
 
 <Icon.DayCloudy size="30" class="text-red-500" />
@@ -119,7 +114,6 @@ Use `import * as Icon from 'svelte-weather-icons`.
 <Icon.MoonAltWaningGibbous2 size="60" class="text-purple-500" />
 <Icon.NightAltSleet size="100" class="text-purple-500" tabindex="0" />
 ```
-
 
 ## Other icons
 

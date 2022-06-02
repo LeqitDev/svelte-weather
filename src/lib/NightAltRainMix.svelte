@@ -1,8 +1,27 @@
-<script>export let size="30"; export let color="currentColor";export let ariaLabel="night alt rain mix" </script>
+<script>
+  export let size = '30';
+  export let color = 'currentColor';
+  export let ariaLabel = 'night alt rain mix';
+</script>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<path d="M4.07,16.93c0,1.33,0.47,2.47,1.4,3.43s2.07,1.47,3.4,1.51c0.12,0,0.18-0.06,0.18-0.17v-1.34c0-0.11-0.06-0.17-0.18-0.17
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  fill={color}
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M4.07,16.93c0,1.33,0.47,2.47,1.4,3.43s2.07,1.47,3.4,1.51c0.12,0,0.18-0.06,0.18-0.17v-1.34c0-0.11-0.06-0.17-0.18-0.17
 	c-0.85-0.04-1.58-0.39-2.18-1.03s-0.91-1.39-0.91-2.23c0-0.85,0.28-1.59,0.85-2.21c0.57-0.62,1.27-0.97,2.1-1.04l0.53-0.07
 	c0.13,0,0.2-0.06,0.2-0.18l0.07-0.51c0.11-1.1,0.56-2.02,1.37-2.75c0.81-0.73,1.76-1.1,2.86-1.1c1.09,0,2.04,0.37,2.86,1.1
 	c0.82,0.73,1.29,1.64,1.4,2.72l0.07,0.57c0,0.12,0.06,0.19,0.17,0.19h1.62c0.91,0,1.68,0.32,2.33,0.97
@@ -38,5 +57,6 @@
 	c-0.23-0.07-0.44-0.05-0.64,0.06s-0.32,0.27-0.39,0.51l-0.28,0.91c0,0.02-0.01,0.06-0.02,0.12C17.53,18.74,17.52,18.78,17.52,18.81z
 	 M17.59,8.76c0.32-0.58,0.76-1.02,1.31-1.34c0.56-0.32,1.13-0.47,1.73-0.46c0.09,0,0.19,0.01,0.3,0.03V7.3
 	c-0.01,0.98,0.25,1.9,0.77,2.76c0.53,0.86,1.27,1.5,2.22,1.94c-0.19,0.41-0.46,0.78-0.8,1.11c-0.92-0.76-2-1.14-3.23-1.14h-0.31
-	C19.27,10.66,18.61,9.59,17.59,8.76z"/>
+	C19.27,10.66,18.61,9.59,17.59,8.76z"
+  />
 </svg>

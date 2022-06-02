@@ -1,8 +1,27 @@
-<script>export let size="30"; export let color="currentColor";export let ariaLabel="day light wind" </script>
+<script>
+  export let size = '30';
+  export let color = 'currentColor';
+  export let ariaLabel = 'day light wind';
+</script>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<path d="M2.32,14.85c0,0.24,0.09,0.44,0.26,0.6c0.16,0.17,0.36,0.25,0.6,0.25h9.42c0.23,0,0.43-0.08,0.59-0.25
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  fill={color}
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M2.32,14.85c0,0.24,0.09,0.44,0.26,0.6c0.16,0.17,0.36,0.25,0.6,0.25h9.42c0.23,0,0.43-0.08,0.59-0.25
 	c0.16-0.17,0.24-0.37,0.24-0.6c0-0.23-0.08-0.43-0.23-0.59c-0.16-0.16-0.35-0.24-0.59-0.24H3.18c-0.24,0-0.44,0.08-0.61,0.24
 	C2.4,14.42,2.32,14.62,2.32,14.85z M2.65,21c0,0.24,0.08,0.44,0.25,0.6c0.16,0.17,0.36,0.25,0.6,0.25h9.43
 	c0.24,0,0.44-0.08,0.61-0.25c0.17-0.17,0.25-0.37,0.25-0.6s-0.08-0.43-0.25-0.59s-0.37-0.24-0.61-0.24H3.51
@@ -28,5 +47,6 @@
 	c0.18-0.16,0.37-0.24,0.59-0.24c0.24,0,0.44,0.08,0.6,0.25c0.17,0.17,0.25,0.37,0.25,0.6c0,0.25-0.08,0.46-0.24,0.62l-1.45,1.43
 	c-0.18,0.16-0.38,0.24-0.6,0.24c-0.23,0-0.41-0.08-0.57-0.24S21.74,6.32,21.74,6.08z M24,11.55c0-0.23,0.08-0.44,0.25-0.62
 	c0.16-0.16,0.35-0.24,0.56-0.24h2.03c0.23,0,0.43,0.09,0.61,0.26c0.17,0.17,0.26,0.37,0.26,0.6c0,0.23-0.09,0.43-0.26,0.6
-	c-0.18,0.17-0.38,0.25-0.61,0.25h-2.03c-0.23,0-0.42-0.08-0.58-0.25C24.08,11.99,24,11.79,24,11.55z"/>
+	c-0.18,0.17-0.38,0.25-0.61,0.25h-2.03c-0.23,0-0.42-0.08-0.58-0.25C24.08,11.99,24,11.79,24,11.55z"
+  />
 </svg>

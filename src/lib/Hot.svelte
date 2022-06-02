@@ -1,8 +1,27 @@
-<script>export let size="30"; export let color="currentColor";export let ariaLabel="hot" </script>
+<script>
+  export let size = '30';
+  export let color = 'currentColor';
+  export let ariaLabel = 'hot';
+</script>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<path d="M4.14,14.76c0-0.24,0.09-0.44,0.27-0.61c0.17-0.17,0.38-0.25,0.62-0.25h2.06c0.24,0,0.44,0.08,0.6,0.25
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  fill={color}
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M4.14,14.76c0-0.24,0.09-0.44,0.27-0.61c0.17-0.17,0.38-0.25,0.62-0.25h2.06c0.24,0,0.44,0.08,0.6,0.25
 	c0.17,0.17,0.25,0.37,0.25,0.61c0,0.25-0.08,0.46-0.25,0.63c-0.17,0.17-0.37,0.25-0.6,0.25H5.03c-0.25,0-0.46-0.08-0.63-0.25
 	C4.22,15.22,4.14,15.01,4.14,14.76z M7.06,7.74c0-0.23,0.08-0.44,0.24-0.62C7.5,6.96,7.71,6.87,7.96,6.87
 	c0.21,0,0.41,0.08,0.59,0.25l1.45,1.48c0.17,0.16,0.25,0.36,0.25,0.6c0,0.24-0.08,0.44-0.25,0.6c-0.17,0.17-0.36,0.25-0.6,0.25
@@ -52,5 +71,6 @@
 	c-0.18,0.17-0.38,0.25-0.61,0.25c-0.23,0-0.43-0.08-0.58-0.25C19.85,9.65,19.77,9.44,19.77,9.21z M22.07,14.76
 	c0-0.22,0.09-0.42,0.26-0.61c0.16-0.17,0.35-0.25,0.58-0.25h2.06c0.24,0,0.45,0.09,0.62,0.26s0.27,0.37,0.27,0.6
 	c0,0.24-0.09,0.45-0.26,0.62c-0.18,0.17-0.38,0.26-0.63,0.26h-2.06c-0.24,0-0.45-0.08-0.6-0.25C22.15,15.22,22.07,15.01,22.07,14.76
-	z"/>
+	z"
+  />
 </svg>

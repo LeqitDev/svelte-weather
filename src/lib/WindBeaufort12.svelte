@@ -1,8 +1,27 @@
-<script>export let size="30"; export let color="currentColor";export let ariaLabel="wind beaufort 12" </script>
+<script>
+  export let size = '30';
+  export let color = 'currentColor';
+  export let ariaLabel = 'wind beaufort 12';
+</script>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<path d="M3.07,13.5c0,0.18,0.06,0.31,0.17,0.4c0.12,0.11,0.26,0.17,0.42,0.17h10.4c0.17,0,0.33,0.06,0.46,0.19
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  fill={color}
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M3.07,13.5c0,0.18,0.06,0.31,0.17,0.4c0.12,0.11,0.26,0.17,0.42,0.17h10.4c0.17,0,0.33,0.06,0.46,0.19
 	c0.13,0.12,0.2,0.28,0.2,0.46s-0.07,0.34-0.2,0.47c-0.13,0.13-0.28,0.2-0.46,0.2c-0.18,0-0.34-0.07-0.47-0.21
 	c-0.13-0.11-0.26-0.16-0.4-0.16c-0.16,0-0.3,0.05-0.41,0.16c-0.11,0.11-0.16,0.24-0.16,0.39c0,0.16,0.06,0.3,0.17,0.41
 	c0.36,0.36,0.78,0.53,1.28,0.53s0.91-0.17,1.26-0.52c0.35-0.35,0.52-0.77,0.52-1.27c0-0.49-0.17-0.92-0.52-1.27
@@ -17,5 +36,6 @@
 	c-0.43-0.16-0.92-0.23-1.45-0.23c-0.97,0-1.76,0.26-2.37,0.78c-0.61,0.52-0.98,1.29-1.1,2.31h2.07c0-0.38,0.11-0.69,0.33-0.95
 	c0.22-0.26,0.53-0.38,0.93-0.38c0.3,0,0.52,0.08,0.67,0.24c0.15,0.16,0.22,0.34,0.22,0.55c0,0.32-0.11,0.58-0.33,0.76
 	c-0.22,0.18-0.63,0.42-1.25,0.72c-0.04,0.01-0.07,0.02-0.08,0.04c-0.89,0.43-1.44,0.7-1.65,0.83c-0.79,0.47-1.34,1.06-1.65,1.74
-	C19.68,21.03,19.57,21.44,19.51,21.9z"/>
+	C19.68,21.03,19.57,21.44,19.51,21.9z"
+  />
 </svg>
