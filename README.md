@@ -1,6 +1,6 @@
 # Svelte-Weather
 
-SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
+210+ SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather/main/static/images/weather1.webp" />
@@ -23,8 +23,8 @@ npm i svelte-weather
 
 ## REPL
 
-- [Demo 1]()
-- [Demo 2]()
+- [Demo 1](https://svelte.dev/repl/d98438528d974bb7981357fa20e92137?version=3.48.0)
+- [Demo 2](https://svelte.dev/repl/cf8a7f1be1f14d839d72784c4a377a65?version=3.48.0)
 
 ## Usage
 
