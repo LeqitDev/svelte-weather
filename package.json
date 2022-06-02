@@ -1,5 +1,5 @@
 {
-  "name": "svelte-weather-icons",
+  "name": "svelte-weather",
   "version": "0.1.1",
   "description": "SVG weather icons for Svelte",
   "author": {
@@ -7,8 +7,8 @@
     "email": "connect@codewithshin.com",
     "url": "https://blog.codewithshin.com"
   },
-  "bugs": "https://github.com/shinokada/svelte-weather-icons/issues",
-  "homepage": "https://github.com/shinokada/svelte-weather-icons",
+  "bugs": "https://github.com/shinokada/svelte-weather/issues",
+  "homepage": "https://github.com/shinokada/svelte-weather",
   "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -46,6 +46,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinokada/svelte-weather-icons"
+    "url": "https://github.com/shinokada/svelte-weather"
   }
 }

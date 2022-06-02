@@ -1,10 +1,10 @@
-# Svelte-Weather-Icons
+# Svelte-Weather
 
 SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather-icons/main/static/images/weather1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather-icons/main/static/images/weather2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather/main/static/images/weather1.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather/main/static/images/weather2.webp" />
 </p>
 
 ## Original source
@@ -13,12 +13,12 @@ SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. 
 
 ## List of icons
 
-[Icon names](https://github.com/shinokada/svelte-weather-icons/blob/main/icon-list.md)
+[Icon names](https://github.com/shinokada/svelte-weather/blob/main/icon-list.md)
 
 ## Installation
 
 ```sh
-npm i svelte-weather-icons
+npm i svelte-weather
 ```
 
 ## REPL
@@ -29,7 +29,7 @@ npm i svelte-weather-icons
 ## Usage
 
 ```js
-<script>import {DayCloudy} from "svelte-weather-icons";</script>
+<script>import {DayCloudy} from "svelte-weather";</script>
 ```
 
 ## Props
@@ -101,11 +101,11 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import * as Icon from 'svelte-weather-icons`.
+Use `import * as Icon from 'svelte-weather`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-weather-icons';
+  import * as Icon from 'svelte-weather';
 </script>
 
 <Icon.DayCloudy size="30" class="text-red-500" />
