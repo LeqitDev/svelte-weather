@@ -1,15 +1,15 @@
 {
 	"name": "svelte-weather-icons",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "SVG weather icons for Svelte",
-  "author": {
-    "name": "Shinichi Okada",
-    "email": "connect@codewithshin.com",
-    "url": "https://blog.codewithshin.com"
-  },
-  "bugs": "https://github.com/shinokada/svelte-weather-icons/issues",
-  "homepage": "https://github.com/shinokada/svelte-weather-icons",
-  "license": "MIT",
+	"author": {
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/shinokada/svelte-weather-icons/issues",
+	"homepage": "https://github.com/shinokada/svelte-weather-icons",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -35,17 +35,17 @@
 		"husky": "^8.0.0"
 	},
 	"type": "module",
-  "main": "index.js",
-  "svelte": "index.js",
-  "keywords": [
-    "svelte",
-    "sveltekit",
-    "weather icons",
-    "icons",
+	"main": "index.js",
+	"svelte": "index.js",
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"weather icons",
+		"icons",
 		"svg"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/svelte-weather-icons"
-  }
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shinokada/svelte-weather-icons"
+	}
 }
