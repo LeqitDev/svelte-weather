@@ -1,4 +1,15 @@
-# Svelte-Weather
+<h1 align="center">Svelte-Weather</h1>
+
+<p align="center">
+<a href="https://shinokada.github.io/svelte-weather/">Svelte-Weather</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-weather" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-weather" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-weather" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-weather" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-weather.svg" alt="npm"></a>
+</p>
 
 210+ SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
@@ -7,24 +18,20 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-weather/main/static/images/weather2.webp" />
 </p>
 
-## Original source
-
-[erikflowers/weather-icons](https://github.com/erikflowers/weather-icons)
-
-## List of icons
-
-[Icon names](https://github.com/shinokada/svelte-weather/blob/main/icon-list.md)
-
 ## Installation
 
 ```sh
 npm i svelte-weather
 ```
 
+## List of icons
+
+[Icon names](https://github.com/shinokada/svelte-weather/blob/main/icon-list.md)
+
 ## REPL
 
-- [Demo 1](https://svelte.dev/repl/d98438528d974bb7981357fa20e92137?version=3.48.0)
-- [Demo 2](https://svelte.dev/repl/cf8a7f1be1f14d839d72784c4a377a65?version=3.48.0)
+- [Demo 1](https://svelte.dev/repl/d98438528d974bb7981357fa20e92137)
+- [Demo 2](https://svelte.dev/repl/cf8a7f1be1f14d839d72784c4a377a65)
 
 ## Usage
 
@@ -114,6 +121,10 @@ Use `import * as Icon from 'svelte-weather`.
 <Icon.MoonAltWaningGibbous2 size="60" class="text-purple-500" />
 <Icon.NightAltSleet size="100" class="text-purple-500" tabindex="0" />
 ```
+
+## Original source
+
+[erikflowers/weather-icons](https://github.com/erikflowers/weather-icons)
 
 ## Other icons
 
