@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/shinokada/svelte-weather/compare/v0.1.4...v0.1.5) (2022-12-25)
+
+
+### Bug Fixes
+
+* url updates ([dd1e1eb](https://github.com/shinokada/svelte-weather/commit/dd1e1ebfb6ed16c094c1b0fd9b6d2ca6d4423d91))
+
 ### [0.1.4](https://github.com/shinokada/svelte-weather/compare/v0.1.3...v0.1.4) (2022-12-16)
 
 ### Features
