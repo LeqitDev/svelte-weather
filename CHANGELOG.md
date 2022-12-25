@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.4](https://github.com/shinokada/svelte-weather/compare/v0.1.3...v0.1.4) (2022-12-16)
 
-
 ### Features
 
-* add docsify ([de5a31e](https://github.com/shinokada/svelte-weather/commit/de5a31ea80915f5f84c0370341b8d9619b8ab9d1))
+- add docsify ([de5a31e](https://github.com/shinokada/svelte-weather/commit/de5a31ea80915f5f84c0370341b8d9619b8ab9d1))
 
 ### [0.1.3](https://github.com/shinokada/svelte-weather/compare/v0.1.2...v0.1.3) (2022-06-02)
 

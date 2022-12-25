@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Weather</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-weather/">Svelte-Weather</a>
+<a href="https://svelte-weather.codewithshin.com/">Svelte-Weather</a>
 </p>
 
 <p align="center">
