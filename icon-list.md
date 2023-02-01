@@ -219,3 +219,7 @@
 - WindBeaufort9
 - WindDeg
 - Windy
+
+## Back to Home
+
+[Back to Home](/)
