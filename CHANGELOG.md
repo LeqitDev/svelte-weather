@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.6](https://github.com/shinokada/svelte-weather/compare/v0.1.5...v0.1.6) (2023-02-01)
 
-
 ### Features
 
-* add pwa ([069c0de](https://github.com/shinokada/svelte-weather/commit/069c0de261da9ad9b5567a2d05e49818965c32d1))
+- add pwa ([069c0de](https://github.com/shinokada/svelte-weather/commit/069c0de261da9ad9b5567a2d05e49818965c32d1))
 
 ### [0.1.5](https://github.com/shinokada/svelte-weather/compare/v0.1.4...v0.1.5) (2022-12-25)
 
