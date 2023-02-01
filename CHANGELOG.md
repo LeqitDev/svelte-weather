@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/shinokada/svelte-weather/compare/v0.1.6...v0.1.7) (2023-02-01)
+
+
+### Bug Fixes
+
+* badges target, height, and add links to crossOriginLinks ([5151f0a](https://github.com/shinokada/svelte-weather/commit/5151f0aa6aaac24d04b49c05cfe90da87963608f))
+
 ### [0.1.6](https://github.com/shinokada/svelte-weather/compare/v0.1.5...v0.1.6) (2023-02-01)
 
 ### Features
