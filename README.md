@@ -44,7 +44,9 @@ npm i svelte-weather
 ## Usage
 
 ```js
-<script>import {DayCloudy} from "svelte-weather";</script>
+<script>
+  import { DayCloudy } from "svelte-weather";
+</script>
 ```
 
 ## Faster compiling
@@ -136,7 +138,15 @@ All icons have aria-label. For example `DayCloudy` has `aria-label="day cloudy"`
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<DayCloudy ariaLabel="day cloudy icon" class="text-red-500"></DayCloudy>
+<DayCloudy ariaLabel="day cloudy icon" class="text-red-500" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<DayCloudy tabindex="-1" />
 ```
 
 ## Passing down other attributes
@@ -144,7 +154,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<DayCloudy tabindex="0"></DayCloudy>
+<DayCloudy tabindex="0" />
 ```
 
 ## Import all
