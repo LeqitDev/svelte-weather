@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.1](https://github.com/shinokada/svelte-weather/compare/v0.1.7...v0.2.1) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([1f3de91](https://github.com/shinokada/svelte-weather/commit/1f3de91288cc849a66d4d56ac37d5130fb502434))
-* new svelte packaging system ([3496359](https://github.com/shinokada/svelte-weather/commit/34963593b77110a5e113d8528708159d86327048))
-
+- add microsoft webmaster tools meta tag ([1f3de91](https://github.com/shinokada/svelte-weather/commit/1f3de91288cc849a66d4d56ac37d5130fb502434))
+- new svelte packaging system ([3496359](https://github.com/shinokada/svelte-weather/commit/34963593b77110a5e113d8528708159d86327048))
 
 ### Bug Fixes
 
-* format ([edec6c4](https://github.com/shinokada/svelte-weather/commit/edec6c45c33216ed38a48a5faf22c7eef57b123a))
-* update index.html ([358faef](https://github.com/shinokada/svelte-weather/commit/358faefd3c33be1c9ff7de40ee9416a3ca62942f))
+- format ([edec6c4](https://github.com/shinokada/svelte-weather/commit/edec6c45c33216ed38a48a5faf22c7eef57b123a))
+- update index.html ([358faef](https://github.com/shinokada/svelte-weather/commit/358faefd3c33be1c9ff7de40ee9416a3ca62942f))
 
 ### [0.1.7](https://github.com/shinokada/svelte-weather/compare/v0.1.6...v0.1.7) (2023-02-01)
 

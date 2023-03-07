@@ -16,6 +16,8 @@
 
 210+ SVG weather icons for Svelte. Svlete-Weather-Icons support major CSS framework. You can add additional CSS using the `class` props.
 
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+
 <p align="center">
 <img width="650" src="/static/images/weather-optimized.png" />
 </p>
@@ -42,7 +44,42 @@ npm i svelte-weather
 ## Usage
 
 ```js
-<script>import {DayCloudy} from "svelte-weather";</script>
+<script>
+  import { DayCloudy } from "svelte-weather";
+</script>
+```
+
+## Faster compiling
+
+If you only need to use a couple of icons from this library in your Svelte app, importing it directly. This can help optimize compilation speed. 
+By importing only what you need, you can reduce the amount of code that needs to be processed, which can improve overall performance.
+
+```html
+<script>
+  import DayCloudy from 'svelte-weather/DayCloudy.svelte';
+</script>
+
+<DayCloudy />
+```
+
+If you are TypeScript user, install **typescript version 5.0.0 or above**.
+
+As of March 2023, the `typescript@beta` version is available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
 
 ## Props
