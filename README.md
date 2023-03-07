@@ -105,7 +105,8 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<DayCloudy color="#ff0000" /> <DayCloudy color="#00ffd8" />
+<DayCloudy color="#ff0000" /> 
+<DayCloudy color="#00ffd8" />
 ```
 
 ## CSS framework support
