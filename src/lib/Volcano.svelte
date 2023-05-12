@@ -1,27 +1,8 @@
-<script>
-  export let size = '30';
-  export let color = 'currentColor';
-  export let ariaLabel = 'volcano';
-</script>
+<script>export let size="30"; export let color="currentColor";export let ariaLabel="volcano" </script>
 
-<svg
-  version="1.1"
-  id="Layer_1"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  fill={color}
-  viewBox="0 0 30 30"
-  style="enable-background:new 0 0 30 30;"
-  xml:space="preserve"
->
-  <path
-    d="M7.39,22.61c-0.12-0.27-0.09-0.54,0.09-0.81l1.4-2.67c0.01-0.04,0.05-0.09,0.11-0.15c0.04-0.04,0.17-0.14,0.38-0.29
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<path d="M7.39,22.61c-0.12-0.27-0.09-0.54,0.09-0.81l1.4-2.67c0.01-0.04,0.05-0.09,0.11-0.15c0.04-0.04,0.17-0.14,0.38-0.29
 	c0.02-0.01,0.25-0.18,0.68-0.5c0.48-0.32,1.03-0.72,1.68-1.19l1.8-2.98c0.17-0.27,0.41-0.41,0.72-0.41h0.7
 	c-0.16,0.19-0.31,0.39-0.45,0.6c-0.14,0.21-0.27,0.5-0.38,0.85c-0.12,0.36-0.18,0.71-0.18,1.07c0,0.36,0.09,0.77,0.28,1.25
 	c0.19,0.47,0.48,0.94,0.88,1.39c0.27,0.31,0.44,0.62,0.5,0.93s0.02,0.58-0.1,0.83c-0.12,0.25-0.32,0.5-0.59,0.74
@@ -38,6 +19,5 @@
 	c0.21,0.27,0.24,0.56,0.08,0.88c-0.15,0.31-0.4,0.46-0.75,0.46H16.2c0.17-0.16,0.32-0.29,0.44-0.39c0.12-0.11,0.27-0.27,0.45-0.49
 	s0.33-0.43,0.42-0.61s0.17-0.42,0.23-0.69c0.06-0.27,0.07-0.53,0.01-0.79c-0.06-0.25-0.18-0.53-0.38-0.84
 	c-0.19-0.31-0.46-0.61-0.81-0.91c-0.34-0.3-0.64-0.59-0.88-0.88c-0.24-0.28-0.43-0.54-0.56-0.76c-0.13-0.22-0.23-0.45-0.29-0.68
-	C14.79,15.84,14.76,15.64,14.76,15.48z"
-  />
+	C14.79,15.84,14.76,15.64,14.76,15.48z"/>
 </svg>

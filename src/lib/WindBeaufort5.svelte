@@ -1,27 +1,8 @@
-<script>
-  export let size = '30';
-  export let color = 'currentColor';
-  export let ariaLabel = 'wind beaufort 5';
-</script>
+<script>export let size="30"; export let color="currentColor";export let ariaLabel="wind beaufort 5" </script>
 
-<svg
-  version="1.1"
-  id="Layer_1"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  fill={color}
-  viewBox="0 0 30 30"
-  style="enable-background:new 0 0 30 30;"
-  xml:space="preserve"
->
-  <path
-    d="M4.97,13.5c0,0.18,0.06,0.31,0.17,0.4c0.12,0.11,0.26,0.17,0.42,0.17h10.4c0.18,0,0.33,0.06,0.46,0.19
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<path d="M4.97,13.5c0,0.18,0.06,0.31,0.17,0.4c0.12,0.11,0.26,0.17,0.42,0.17h10.4c0.18,0,0.33,0.06,0.46,0.19
 	c0.13,0.12,0.2,0.28,0.2,0.46s-0.07,0.34-0.2,0.47s-0.28,0.2-0.46,0.2c-0.18,0-0.34-0.07-0.47-0.21c-0.13-0.11-0.26-0.16-0.4-0.16
 	c-0.16,0-0.3,0.05-0.41,0.16c-0.11,0.11-0.16,0.24-0.16,0.39c0,0.16,0.06,0.3,0.17,0.41c0.36,0.36,0.78,0.53,1.28,0.53
 	c0.49,0,0.91-0.17,1.26-0.52c0.35-0.35,0.52-0.77,0.52-1.27c0-0.49-0.17-0.92-0.52-1.27c-0.35-0.35-0.77-0.53-1.26-0.53H5.56
@@ -35,6 +16,5 @@
 	c0.25-0.22,0.45-0.49,0.61-0.79c0.16-0.3,0.27-0.57,0.32-0.82c0.05-0.25,0.08-0.49,0.08-0.74c0-0.67-0.21-1.21-0.64-1.61
 	s-0.98-0.61-1.65-0.61c-0.69,0-1.18,0.14-1.45,0.43h-0.02l0.35-1.02h3.45l0.39-1.88h-5.24l-1.45,4.46h2
 	c0.16-0.34,0.53-0.51,1.11-0.51c0.32,0,0.58,0.08,0.77,0.25c0.19,0.17,0.29,0.41,0.29,0.75c0,0.34-0.12,0.61-0.35,0.82
-	c-0.23,0.21-0.57,0.31-1,0.31c-0.31,0-0.56-0.06-0.73-0.17c-0.21-0.11-0.33-0.31-0.36-0.6H18.04z"
-  />
+	c-0.23,0.21-0.57,0.31-1,0.31c-0.31,0-0.56-0.06-0.73-0.17c-0.21-0.11-0.33-0.31-0.36-0.6H18.04z"/>
 </svg>

@@ -1,27 +1,8 @@
-<script>
-  export let size = '30';
-  export let color = 'currentColor';
-  export let ariaLabel = 'night cloudy high';
-</script>
+<script>export let size="30"; export let color="currentColor";export let ariaLabel="night cloudy high" </script>
 
-<svg
-  version="1.1"
-  id="Layer_1"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  x="0px"
-  y="0px"
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  fill={color}
-  viewBox="0 0 30 30"
-  style="enable-background:new 0 0 30 30;"
-  xml:space="preserve"
->
-  <path
-    d="M3.58,13.45c0-1.15,0.36-2.18,1.08-3.07C5.38,9.48,6.29,8.9,7.4,8.64c0.31-1.37,1.02-2.49,2.11-3.37s2.35-1.32,3.76-1.32
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<path d="M3.58,13.45c0-1.15,0.36-2.18,1.08-3.07C5.38,9.48,6.29,8.9,7.4,8.64c0.31-1.37,1.02-2.49,2.11-3.37s2.35-1.32,3.76-1.32
 	c1.38,0,2.61,0.43,3.69,1.28s1.78,1.95,2.1,3.29h0.33c0.9,0,1.73,0.22,2.49,0.65s1.37,1.03,1.81,1.79c0.44,0.76,0.67,1.58,0.67,2.48
 	c0,0.2-0.01,0.4-0.03,0.61c0.65,0.51,1.16,1.15,1.54,1.91s0.56,1.57,0.56,2.43c0,0.77-0.15,1.5-0.45,2.19
 	c-0.3,0.69-0.7,1.28-1.2,1.78c-0.5,0.49-1.1,0.89-1.79,1.18c-0.69,0.29-1.41,0.44-2.17,0.44c-0.75,0-1.47-0.15-2.16-0.44
@@ -32,6 +13,5 @@
 	S9.14,8.39,9.04,9.47l-0.08,0.58c0,0.11-0.07,0.17-0.2,0.17H8.24c-0.84,0.1-1.54,0.46-2.1,1.07C5.57,11.9,5.29,12.62,5.29,13.45z
 	 M16.55,18.56c0.06,1.12,0.52,2.07,1.37,2.83c0.85,0.76,1.82,1.14,2.91,1.14c0.6,0,1.17-0.12,1.7-0.35s0.98-0.55,1.34-0.93
 	c0.36-0.39,0.65-0.83,0.85-1.33c0.21-0.5,0.31-1,0.31-1.52c0-0.49-0.1-0.98-0.3-1.47s-0.48-0.94-0.85-1.35
-	c-0.39,0.82-0.97,1.5-1.74,2.02c-0.77,0.52-1.63,0.79-2.57,0.83h-3.03C16.54,18.44,16.54,18.47,16.55,18.56z"
-  />
+	c-0.39,0.82-0.97,1.5-1.74,2.02c-0.77,0.52-1.63,0.79-2.57,0.83h-3.03C16.54,18.44,16.54,18.47,16.55,18.56z"/>
 </svg>
