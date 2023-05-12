@@ -1,5 +1,3 @@
-# Icon names
-
 - Alien.svelte
 - Barometer.svelte
 - Celsius.svelte
@@ -219,7 +217,4 @@
 - WindBeaufort9.svelte
 - WindDeg.svelte
 - Windy.svelte
-
-## Back to Home
-
-[Back to Home](/)
+- index.js
