@@ -1,8 +1,36 @@
-<script>export let size="30"; export let color="currentColor";export let ariaLabel="night sleet" </script>
+<script>
+  export let size = '30';
+  export let color = 'currentColor';
+  export let ariaLabel = 'night sleet';
+</script>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width={size} height={size} {...$$restProps} aria-label={ariaLabel} fill={color} on:click on:change on:keydown on:keyup on:focus on:blur on:mouseenter on:mouseleave viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<path d="M4.23,16.99v-0.02c0-1.16,0.36-2.19,1.08-3.09s1.64-1.49,2.74-1.74c0.31-1.37,1.01-2.49,2.1-3.37s2.35-1.32,3.77-1.32
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  fill={color}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M4.23,16.99v-0.02c0-1.16,0.36-2.19,1.08-3.09s1.64-1.49,2.74-1.74c0.31-1.37,1.01-2.49,2.1-3.37s2.35-1.32,3.77-1.32
 	c0.99,0,1.9,0.22,2.72,0.66c0.5-0.53,1.09-0.95,1.76-1.25c0.67-0.3,1.37-0.45,2.09-0.45c0.95,0,1.83,0.24,2.64,0.71
 	c0.81,0.47,1.45,1.11,1.92,1.92s0.71,1.69,0.71,2.64c0,1.23-0.38,2.33-1.14,3.29c0.29,0.61,0.43,1.28,0.43,2.02
 	c0,0.88-0.21,1.7-0.64,2.45c-0.42,0.75-1,1.36-1.74,1.81c-0.73,0.45-1.54,0.69-2.42,0.72c-0.13,0-0.2-0.06-0.2-0.17v-1.34
@@ -30,5 +58,25 @@
 	S16.28,24.33,16.28,24.16z M17.02,21.21c0-0.24,0.08-0.43,0.23-0.59s0.35-0.23,0.59-0.23c0.24,0,0.43,0.08,0.59,0.23
 	c0.16,0.16,0.23,0.35,0.23,0.59c0,0.23-0.08,0.43-0.23,0.58c-0.16,0.16-0.35,0.23-0.59,0.23c-0.24,0-0.43-0.08-0.58-0.24
 	C17.11,21.63,17.02,21.44,17.02,21.21z M18.06,9.1c0.84,0.76,1.4,1.74,1.7,2.93h0.31c1.38,0,2.55,0.48,3.52,1.44
-	c0.31-0.55,0.47-1.15,0.47-1.81c0-0.98-0.35-1.81-1.04-2.5c-0.69-0.68-1.53-1.03-2.51-1.03C19.54,8.14,18.73,8.46,18.06,9.1z"/>
+	c0.31-0.55,0.47-1.15,0.47-1.81c0-0.98-0.35-1.81-1.04-2.5c-0.69-0.68-1.53-1.03-2.51-1.03C19.54,8.14,18.73,8.46,18.06,9.1z"
+  />
 </svg>
+
+<!--
+@component
+[Go to Document](https://svelte-weather.codewithshin.com/)
+## Props
+@prop size = '30';
+@prop color = 'currentColor';
+@prop ariaLabel = 'icon file name';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
