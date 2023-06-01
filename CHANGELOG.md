@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.4](https://github.com/shinokada/svelte-weather/compare/v0.3.3...v0.3.4) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([64dae9c](https://github.com/shinokada/svelte-weather/commit/64dae9cc1ff30f8ca880316cff553b30d6204206))
+- add || ^4.0.0 to peerDependencies ([64dae9c](https://github.com/shinokada/svelte-weather/commit/64dae9cc1ff30f8ca880316cff553b30d6204206))
 
 ### [0.3.3](https://github.com/shinokada/svelte-weather/compare/v0.3.2...v0.3.3) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([566cd7e](https://github.com/shinokada/svelte-weather/commit/566cd7ef80ef582d33c5d6838031f4c0a2ce7fb1))
+- add component docs ([566cd7e](https://github.com/shinokada/svelte-weather/commit/566cd7ef80ef582d33c5d6838031f4c0a2ce7fb1))
 
 ### [0.3.2](https://github.com/shinokada/svelte-weather/compare/v0.3.1...v0.3.2) (2023-05-12)
 

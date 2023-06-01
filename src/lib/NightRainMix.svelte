@@ -1,5 +1,6 @@
 <script>
   export let size = '30';
+  export let role = 'img';
   export let color = 'currentColor';
   export let ariaLabel = 'night rain mix';
 </script>
@@ -14,6 +15,7 @@
   width={size}
   height={size}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   fill={color}
   on:click
@@ -74,6 +76,7 @@
 [Go to Document](https://svelte-weather.codewithshin.com/)
 ## Props
 @prop size = '30';
+@prop role = 'img';
 @prop color = 'currentColor';
 @prop ariaLabel = 'icon file name';
 ## Event
