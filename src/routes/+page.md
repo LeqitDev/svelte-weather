@@ -107,7 +107,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS framework support
 
-Use the `class` prop to change colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 For example, Tailwind CSS:
 
