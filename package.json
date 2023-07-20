@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-weather/issues",
-  "homepage": "https://svelte-weather.codewithshin.com",
+  "homepage": "https://svelte-weather.vercel.app/",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
