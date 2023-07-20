@@ -1,6 +1,6 @@
 {
   "name": "svelte-weather",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "SVG weather icons for Svelte",
   "author": {
     "name": "Shinichi Okada",
