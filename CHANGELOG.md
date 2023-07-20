@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/shinokada/svelte-weather/compare/v0.3.6...v0.3.7) (2023-07-20)
+
+
+### Features
+
+* layout update ([7c460e0](https://github.com/shinokada/svelte-weather/commit/7c460e05959e2f1e93ab37fee34b1da60e6dcbe9))
+
+
+### Bug Fixes
+
+* homepage update ([bc7648e](https://github.com/shinokada/svelte-weather/commit/bc7648eb688f2e96cc3d5ae42298c91b363434b4))
+* image sizes ([147bcfc](https://github.com/shinokada/svelte-weather/commit/147bcfc309a3395fc621bd45e1f99ba4a054f4db))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([53e1b1c](https://github.com/shinokada/svelte-weather/commit/53e1b1c213d8853cbdca8f28186b6767bfe9b4fa))
+
 ### [0.3.6](https://github.com/shinokada/svelte-weather/compare/v0.3.5...v0.3.6) (2023-06-15)
 
 ### [0.3.5](https://github.com/shinokada/svelte-weather/compare/v0.3.4...v0.3.5) (2023-06-01)
