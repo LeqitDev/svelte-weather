@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/shinokada/svelte-weather/compare/v0.4.1...v0.4.2) (2023-07-30)
+
+
+### Bug Fixes
+
+* viewBox size ([7e2e88b](https://github.com/shinokada/svelte-weather/commit/7e2e88b28c72b593228e25c0c0e63c6d7edc09da))
+
 ### [0.4.1](https://github.com/shinokada/svelte-weather/compare/v0.3.8...v0.4.1) (2023-07-30)
 
 
