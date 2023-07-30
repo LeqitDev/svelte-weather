@@ -36,46 +36,24 @@ pnpm i svelte-weather
 
 ## Usage
 
-```js
-<script>import {DayCloudy} from "svelte-weather";</script>
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+In a svelte file:
 
 ```html
 <script>
-  import DayCloudy from 'svelte-weather/DayCloudy.svelte';
+  import { Icon } from 'svelte-weather';
 </script>
 
-<DayCloudy />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="day-rain" />
 ```
 
 ## Props
 
-- size = '30';
-- role = 'img';
-- color = 'currentColor';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -83,18 +61,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<DayCloudy size="30" />
-<DayCloudy size="40" />
-<DayCloudy size="50" />
+<Icon name="day-rain" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<DayCloudy class="shrink-0 h-20 w-20" />
+<Icon name="day-rain" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -102,42 +78,42 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<DayCloudy color="#ff0000" /> <DayCloudy color="#00ffd8" />
+<Icon name="day-rain" color="#c61515" />
 ```
 
-## CSS framework support
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
-For example, Tailwind CSS:
+Tailwind CSS example:
 
 ```html
-<DayCloudy class="text-pink-700 mr-4" />
+<Icon name="day-rain" class="text-red-700 inline m-1" />
 ```
 
-Bootstrap example:
+Bootstrap examples:
 
 ```html
-<DayCloudy class="position-absolute top-0 px-1" />
+<Icon name="day-rain" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
 
-If you use the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<DayCloudy class="text-pink-700 dark:text-blue-300" />
+<Icon name="day-rain" class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `DayCloudy` has `aria-label="day cloudy"`.
+All icons have aria-label. For example `day-rain` has `aria-label="day-rain"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<DayCloudy ariaLabel="day cloudy icon" class="text-red-500" />
+<Icon name="day-rain" ariaLabel="red day-rain" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -145,7 +121,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<DayCloudy tabindex="-1" />
+<Icon name="day-rain"  tabindex="-1" />
 ```
 
 ## Events
@@ -167,49 +143,48 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<DayCloudy tabindex="0" />
+<Icon name="day-rain"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { DayCloudy } from 'svelte-weather';
-</script>
-
-<svelte:component this="{DayCloudy}" />
+<svelte:component this="{Icon}" name="day-rain" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { DayCloudy } from 'svelte-weather';
+  import {Icon} from 'svelte-weather';
   import { onMount } from 'svelte';
   const props = {
+    name: 'day-rain',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new DayCloudy({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-weather`.
+Use `import {Icon, icons} from 'svelte-weather';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-weather';
+  import {Icon, icons} from 'svelte-weather';
 </script>
 
-<Icon.DayCloudy size="30" class="text-red-500" />
-<Icon.DirectionRight size="40" class="text-blue-700" />
-<Icon.Hail size="50" class="text-green-700" />
-<Icon.MoonAltWaningGibbous2 size="60" class="text-purple-500" />
-<Icon.NightAltSleet size="100" class="text-purple-500" tabindex="0" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
