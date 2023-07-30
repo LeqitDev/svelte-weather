@@ -2,8 +2,8 @@
   import icons from './icons.js'
 
   export let name;
-  export let width = "24";
-  export let height = "24";
+  export let width = "30";
+  export let height = "30";
   export let color = 'currentColor';
   export let role = 'img';
   export let ariaLabel = name;
@@ -38,8 +38,8 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 [Go to Document](https://shinokada.github.io/svelte-weather/)
 ## Props
 @prop name;
-@prop width = "24";
-@prop height = "24";
+@prop width = "30";
+@prop height = "30";
 @prop role = 'img';
 @prop color = 'currentColor'
 @prop ariaLabel='icon name'
