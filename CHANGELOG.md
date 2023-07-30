@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/shinokada/svelte-weather/compare/v0.3.8...v0.4.1) (2023-07-30)
+
+
+### Features
+
+* use two files ([f23e05e](https://github.com/shinokada/svelte-weather/commit/f23e05efc438b3a72898f1394c3ff7c801b3b1d0))
+
 ### [0.3.8](https://github.com/shinokada/svelte-weather/compare/v0.3.7...v0.3.8) (2023-07-20)
 
 
