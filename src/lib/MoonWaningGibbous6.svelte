@@ -1,0 +1,48 @@
+<script>
+  export let size = '30';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'moon waning gibbous 6';
+</script>
+
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  width={size}
+  height={size}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  fill={color}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 30 30"
+  style="enable-background:new 0 0 30 30;"
+  xml:space="preserve"
+>
+  <path
+    d="M3.74,14.46c0,2.04,0.5,3.92,1.51,5.65s2.37,3.09,4.09,4.09s3.61,1.51,5.65,1.51c1.44-3.08,2.15-6.83,2.15-11.25
+	c0-3.46-0.72-7.2-2.15-11.24c-1.52,0-2.98,0.3-4.37,0.89S8.03,5.5,7.03,6.5s-1.8,2.2-2.4,3.59S3.74,12.93,3.74,14.46z"
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-weather-icons.vercel.app/)
+## Props
+@prop export let size = '30';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'moon waning gibbous 6';
+-->
