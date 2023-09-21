@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.2](https://github.com/shinokada/svelte-weather/compare/v0.5.1...v0.5.2) (2023-09-21)
+
+
+### Features
+
+* add context ([a94a558](https://github.com/shinokada/svelte-weather/commit/a94a558a38f297af5ed7bb42eb398126817743bf))
+* add sidebar menu ([a013f5f](https://github.com/shinokada/svelte-weather/commit/a013f5fe029b959e4325676e6f76b63f2054cd88))
+* update nav ([52439b5](https://github.com/shinokada/svelte-weather/commit/52439b5c165ca1fd81a1c4e1813a39b7d732e181))
+
 ### [0.5.1](https://github.com/shinokada/svelte-weather/compare/v0.4.4...v0.5.1) (2023-09-02)
 
 ### Features
