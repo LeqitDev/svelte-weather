@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.1](https://github.com/shinokada/svelte-weather/compare/v0.4.4...v0.5.1) (2023-09-02)
 
-
 ### Features
 
-* smaller compiled size and Icon component ([2055794](https://github.com/shinokada/svelte-weather/commit/2055794162ce2ddcf1da42af3edeb3fe16c67c71))
+- smaller compiled size and Icon component ([2055794](https://github.com/shinokada/svelte-weather/commit/2055794162ce2ddcf1da42af3edeb3fe16c67c71))
 
 ### [0.4.4](https://github.com/shinokada/svelte-weather/compare/v0.4.3...v0.4.4) (2023-08-03)
 
