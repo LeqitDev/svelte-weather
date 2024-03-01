@@ -19,7 +19,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-weather-icons.vercel.app/)
+[Go to docs](https://svelte-weather-icons.codewithshin.com/)
 ## Props
 @prop export let icon: ComponentType;
 @prop export let size: number = 30;

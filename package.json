@@ -968,6 +968,7 @@
     "./Windy.svelte": {
       "types": "./dist/Windy.svelte.d.ts",
       "svelte": "./dist/Windy.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }
