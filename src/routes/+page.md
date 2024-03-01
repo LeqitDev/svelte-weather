@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svetle-weather)
 
-## Original source
-
-[erikflowers/weather-icons GitHub Repo](https://github.com/erikflowers/weather-icons)
-
-## License
-
-[Svelte-Weather License](https://github.com/shinokada/svetle-weather/blob/main/LICENSE)
-
-[erikflowers/weather-icons LICENSE](https://github.com/erikflowers/weather-icons#licensing)
-
 ## Installation
 
 ```sh
@@ -328,6 +318,16 @@ Use `import * as Icon from 'svelte-weather`.
 <Icon.NightAltSleet size="100" class="text-purple-500" tabindex="0" />
 ```
 
+## Original source
+
+[erikflowers/weather-icons GitHub Repo](https://github.com/erikflowers/weather-icons)
+
+## License
+
+[Svelte-Weather License](https://github.com/shinokada/svetle-weather/blob/main/LICENSE)
+
+[erikflowers/weather-icons LICENSE](https://github.com/erikflowers/weather-icons#licensing)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
