@@ -29,7 +29,7 @@
   on:mouseleave
   on:mouseover
   on:mouseout
-  viewBox="0 0 30 30"
+  viewBox="5 5 20 20"
   style="enable-background:new 0 0 30 30;"
   xml:space="preserve"
 >
